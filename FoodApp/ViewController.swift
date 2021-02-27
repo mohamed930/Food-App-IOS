@@ -67,5 +67,5 @@ class ViewController: UIViewController , UICollectionViewDelegate , UICollection
         let dicArray = plist as! [[String:String]]
         return dicArray
     }
-}
+}//reading
 
