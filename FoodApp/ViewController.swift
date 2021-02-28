@@ -20,7 +20,6 @@ class ViewController: UIViewController , UICollectionViewDelegate , UICollection
         {
             foods.append(Food(Name: i["Name"]!, Details: i["Des"]!, Image: i["Image"]!))
         }
-        print("Readed Successfullty you can see details")
     }
 
     override func didReceiveMemoryWarning() {
